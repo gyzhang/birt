@@ -7,7 +7,7 @@
     <version>4.8.0-SNAPSHOT</version>
     <relativePath>..</relativePath>
   </parent>
-  <groupId>org.eclipse.birt</groupId>
+  <groupId>io.github.reporting-solutions</groupId>
   <artifactId>birt-runtime-test</artifactId>
   <packaging>jar</packaging>
   <properties>
@@ -37,7 +37,7 @@
             <configuration>
 				<artifactItems>
 					<artifactItem>
-						<groupId>org.eclipse.birt</groupId>
+						<groupId>io.github.reporting-solutions</groupId>
 						<artifactId>birt-runtime</artifactId>
 						<version>${project.version}</version>
 						<type>zip</type>
@@ -45,7 +45,7 @@
 						<outputDirectory>${project.build.directory}/birt-runtime</outputDirectory>
 					</artifactItem>
 					<artifactItem>
-						<groupId>org.eclipse.birt</groupId>
+						<groupId>io.github.reporting-solutions</groupId>
 						<artifactId>birt-runtime-osgi</artifactId>
 						<version>${project.version}</version>
 						<type>zip</type>

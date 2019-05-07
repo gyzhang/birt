@@ -10,63 +10,63 @@
 		<relativePath>../</relativePath>
 	</parent>
 	
-	<groupId>org.eclipse.birt</groupId>
+	<groupId>io.github.reporting-solutions</groupId>
 	<artifactId>org.eclipse.birt.sdk</artifactId>
 	<packaging>eclipse-plugin</packaging>
 
 	<dependencies>
 		<dependency>
-			<groupId>org.eclipse.birt</groupId>
+			<groupId>io.github.reporting-solutions</groupId>
 			<artifactId>org.eclipse.birt.core</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>org.eclipse.birt</groupId>
+			<groupId>io.github.reporting-solutions</groupId>
 			<artifactId>org.eclipse.birt.report.engine</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>org.eclipse.birt</groupId>
+			<groupId>io.github.reporting-solutions</groupId>
 			<artifactId>org.eclipse.birt.data</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>org.eclipse.birt</groupId>
+			<groupId>io.github.reporting-solutions</groupId>
 			<artifactId>org.eclipse.birt.data.aggregation</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>org.eclipse.birt</groupId>
+			<groupId>io.github.reporting-solutions</groupId>
 			<artifactId>org.eclipse.birt.report.model</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>org.eclipse.birt</groupId>
+			<groupId>io.github.reporting-solutions</groupId>
 			<artifactId>org.eclipse.birt.model.adapter.oda</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>org.eclipse.birt</groupId>
+			<groupId>io.github.reporting-solutions</groupId>
 			<artifactId>org.eclipse.birt.report.engine.dataextraction</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>org.eclipse.birt</groupId>
+			<groupId>io.github.reporting-solutions</groupId>
 			<artifactId>org.eclipse.birt.report.item.crosstab.core</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>org.eclipse.birt</groupId>
+			<groupId>io.github.reporting-solutions</groupId>
 			<artifactId>org.eclipse.birt.report.engine.emitter.config</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>org.eclipse.birt</groupId>
+			<groupId>io.github.reporting-solutions</groupId>
 			<artifactId>org.eclipse.birt.chart.reportitem</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>org.eclipse.birt</groupId>
+			<groupId>io.github.reporting-solutions</groupId>
 			<artifactId>org.eclipse.birt.chart.examples.core</artifactId>
 			<version>${project.version}</version>
 		</dependency>
@@ -124,7 +124,7 @@
 						 <configuration>
 							 <artifactItems>
 								 <artifactItem>
-									 <groupId>org.eclipse.birt</groupId>
+									 <groupId>io.github.reporting-solutions</groupId>
 									 <artifactId>org.eclipse.birt.core</artifactId>
 									 <version>3.8.1</version>
 									 <type>jar</type>

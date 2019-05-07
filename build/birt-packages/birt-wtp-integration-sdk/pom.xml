@@ -8,7 +8,7 @@
 		<relativePath>..</relativePath>
 	</parent>
 
-	<groupId>org.eclipse.birt</groupId>
+	<groupId>io.github.reporting-solutions</groupId>
 	<artifactId>birt-wtp-integration-sdk</artifactId>
 	<packaging>eclipse-repository</packaging>
 
