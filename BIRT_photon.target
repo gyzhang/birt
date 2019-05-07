@@ -28,10 +28,10 @@
 			<repository location="http://download.eclipse.org/tools/gef/updates/legacy/releases/"/>
 		</location>
 		<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
-			<unit id="org.eclipse.jst.enterprise_ui.feature.feature.group" version="3.9.3.v201803221418"/>
+			<unit id="org.eclipse.jst.enterprise_ui.feature.feature.group" version="3.9.100.v201804120404"/>
 			<unit id="org.eclipse.wst.jsdt.feature.feature.group" version="2.1.1.v201804042202"/>
-			<repository location="http://download.eclipse.org/webtools/downloads/drops/R3.9.5/R-3.9.5-20180409100740/repository/"/>
-			<unit id="org.eclipse.jst.web_ui.feature.feature.group" version="3.9.0.v201803221834"/>
+			<repository location="http://archive.eclipse.org/webtools/downloads/drops/R3.10.0/R-3.10.0-20180611164516/repository/"/>
+			<unit id="org.eclipse.jst.web_ui.feature.feature.group" version="3.9.0.v201802222200"/>
 		</location>
 		<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
 			<unit id="org.eclipse.jetty.bundles.f.feature.group" version="9.4.10.201805070144"/>
