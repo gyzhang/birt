@@ -29,7 +29,7 @@
                 <emf.repo.url>http://download.eclipse.org/modeling/emf/emf/builds/milestone/latest</emf.repo.url>
                 <gef.repo.url>http://download.eclipse.org/tools/gef/updates/legacy/releases/</gef.repo.url>
                 <!-- https://wiki.eclipse.org/WTP_FAQ#How_do_I_install_WTP.3F -->
-                <wtp.repo.url>http://download.eclipse.org/webtools/downloads/drops/R3.9.5/R-3.9.5-20180409100740/repository/</wtp.repo.url>
+                <wtp.repo.url>http://archive.eclipse.org/webtools/downloads/drops/R3.10.0/R-3.10.0-20180611164516/repository/</wtp.repo.url>
                 <!-- http://download.eclipse.org/tools/orbit/downloads/ -->
                 <orbit.repo.url>http://download.eclipse.org/tools/orbit/downloads/drops/R20181128170323/repository/</orbit.repo.url>
                 <!-- https://eclipse.org/datatools/downloads.php  -->
