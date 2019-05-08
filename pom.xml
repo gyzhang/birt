@@ -13,7 +13,21 @@
 		<!--<build>v${maven.build.timestamp}</build>-->
 		<maven.build.timestamp.format>yyyyMMdd-HHmm</maven.build.timestamp.format>
 		<tycho.scmUrl>scm:git:https://github.com/eclipse/birt.git</tycho.scmUrl>
+		<oss.nexus.release>https://oss.sonatype.org/service/local/staging/deploy/maven2</oss.nexus.release>
+		<oss.nexus.snapshot>https://oss.sonatype.org/content/repositories/snapshots</oss.nexus.snapshot>
 	</properties>
+	<distributionManagement>
+	    <repository>
+	      <id>oss-release</id>
+	      <name>oss-release</name>
+	      <url>${oss.nexus.release}</url>
+	    </repository>
+	    <snapshotRepository>
+	      <id>oss-snapshot</id>
+	      <name>oss-snapshot</name>
+	      <url>${oss.nexus.snapshot}</url>
+	    </snapshotRepository>
+	  </distributionManagement>
 
 	<!-- make release builds in particular quicker and more reliable -->
 	<profiles>
