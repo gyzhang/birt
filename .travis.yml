@@ -4,7 +4,6 @@ jdk:
 cache:
   directories:
     - ~/.m2
-script: mvn -B --global-toolchains travis-maven-toolchain.xml clean package -DskipTests
-after_script: "mvn deploy"
+script: mvn -B --global-toolchains travis-maven-toolchain.xml clean package deploy -DskipTests
 install:
   -
