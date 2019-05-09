@@ -13,7 +13,7 @@
 	<packaging>pom</packaging>
 
 	<modules>
-		<module>org.eclipse.birt.p2updatesite</module>
+		<!--<module>org.eclipse.birt.p2updatesite</module>-->
 		<!--
 		<module>org.eclipse.birt.sdk</module>
 		-->
