@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/org.eclipse.birt.tests_4.8.0.qualifier.jar" id="org.eclipse.birt.tests" version="4.8.0">
+   <feature url="features/org.eclipse.birt.tests_4.8.0.jar" id="org.eclipse.birt.tests" version="4.8.0">
       <category name="testSuites"/>
    </feature>
-   <feature url="features/org.eclipse.birt.testhelper_4.8.0.qualifier.jar" id="org.eclipse.birt.testhelper" version="4.8.0">
+   <feature url="features/org.eclipse.birt.testhelper_4.8.0.jar" id="org.eclipse.birt.testhelper" version="4.8.0">
       <category name="testSuites"/>
    </feature>
   

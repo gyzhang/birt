@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/org.eclipse.birt.example_4.8.0.qualifier.jar" id="org.eclipse.birt.example" version="4.8.0">
+   <feature url="features/org.eclipse.birt.example_4.8.0.jar" id="org.eclipse.birt.example" version="4.8.0">
       <category name="samplePlugins"/>
    </feature>
   
