@@ -22,14 +22,14 @@
 			</extension>
 		</extensions>
 		<plugins>
-			<!--<plugin>-->
-				<!--<groupId>org.eclipse.tycho</groupId>-->
-				<!--<artifactId>tycho-p2-repository-plugin</artifactId>-->
-				<!--<version>${tycho.version}</version>-->
-				<!--<configuration>-->
-					<!--<includeAllDependencies>false</includeAllDependencies>-->
-				<!--</configuration>-->
-			<!--</plugin>-->
+			<plugin>
+				<groupId>org.eclipse.tycho</groupId>
+				<artifactId>tycho-p2-repository-plugin</artifactId>
+				<version>${tycho.version}</version>
+				<configuration>
+					<includeAllDependencies>false</includeAllDependencies>
+				</configuration>
+			</plugin>
 
 			<plugin>
 				<groupId>org.eclipse.tycho</groupId>
@@ -75,15 +75,15 @@
 							<execution>
 								<id>update-birt</id>
 								<phase>install</phase>
-								<!--<goals>-->
-									<!--<goal>upload</goal>-->
-								<!--</goals>-->
-								<!--<configuration>-->
-									<!--<fromDir>./target/repository</fromDir>-->
-									<!--<includes>**</includes>-->
-									<!--<url>${birt-repository-url}</url>-->
-									<!--<serverId>birt-repository</serverId>-->
-								<!--</configuration>-->
+								<goals>
+									<goal>upload</goal>
+								</goals>
+								<configuration>
+									<fromDir>./target/repository</fromDir>
+									<includes>**</includes>
+									<url>${birt-repository-url}</url>
+									<serverId>birt-repository</serverId>
+								</configuration>
 							</execution>
 						</executions>
 					</plugin>
