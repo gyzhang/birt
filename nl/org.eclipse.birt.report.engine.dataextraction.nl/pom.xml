@@ -4,7 +4,7 @@
 	<parent>
 		<groupId>io.github.reporting-solutions.nl</groupId>
 		<artifactId>org.eclipse.birt.nl-parent</artifactId>
-		<version>4.8.0-SNAPSHOT</version>
+		<version>4.8.0</version>
 		<relativePath>../</relativePath>
 	</parent>
 	<artifactId>org.eclipse.birt.report.engine.dataextraction.nl1</artifactId>
