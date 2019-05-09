@@ -8,7 +8,7 @@
 		<relativePath>../</relativePath>
 	</parent>
 
-	<groupId>org.eclipse.birt.common</groupId>
+	<groupId>io.github.reporting-solutions.common</groupId>
 	<artifactId>org.eclipse.birt.common-parent</artifactId>
 	<packaging>pom</packaging>
 
