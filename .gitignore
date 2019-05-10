@@ -1,6 +1,7 @@
 bin/
 /.reviewboardrc
-
+*.log
+*.out
 .idea/
 *.iml
 
