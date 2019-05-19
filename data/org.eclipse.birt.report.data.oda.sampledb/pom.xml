@@ -7,6 +7,7 @@
 		<version>4.8.0</version>
 		<relativePath>../../</relativePath>
 	</parent>
+	<version>4.8.2</version>
 	<artifactId>org.eclipse.birt.report.data.oda.sampledb</artifactId>
 	<packaging>eclipse-plugin</packaging>
 </project>
